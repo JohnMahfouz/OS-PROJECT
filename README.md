@@ -1,6 +1,6 @@
 # OS_PROJECT – Educational Operating System (FOS)
 
-An educational operating system developed as part of the Operating Systems Course (CSW355) at Ain Shams University. Based on MIT's [xv6](https://pdos.csail.mit.edu/6.828/2020/xv6.html), this project provides hands-on experience with core OS concepts including memory management, virtual memory, and process scheduling.
+An educational operating system developed as part of the Operating Systems Course (CSW355) at Ain Shams University. this project provides hands-on experience with core OS concepts including memory management, virtual memory, and process scheduling.
 
 ---
 
