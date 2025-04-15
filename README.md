@@ -1,14 +1,48 @@
-# OS_PROJECT
-implementation of the FOS project, an educational operating system developed as part of the Operating Systems Course (CSW355) at Ain Shams University. The project is based on MIT's xv6 and has been adapted to provide hands-on experience with memory management, process scheduling, and virtual memory.
+# OS_PROJECT – Educational Operating System (FOS)
 
-Project Overview : 
-The project is divided into multiple milestones, covering key operating system concepts such as:
+An educational operating system developed as part of the Operating Systems Course (CSW355) at Ain Shams University. Based on MIT's [xv6](https://pdos.csail.mit.edu/6.828/2020/xv6.html), this project provides hands-on experience with core OS concepts including memory management, virtual memory, and process scheduling.
 
-✅ Kernel Heap Management – Implementing kmalloc(), kfree(), and virtual-to-physical address translation. ✅ User Memory Management – Implementing malloc(), free(), and dynamic memory allocation strategies. ✅ Page Fault Handling – Handling page faults and implementing the Modified Clock Algorithm for page replacement. ✅ Virtual Memory & Swap Management – Managing memory swapping between RAM and secondary storage. ✅ Process Scheduling – Implementing CPU scheduling algorithms for multi-process execution.
+---
 
-Features Implemented : 
-Dynamic memory allocation with First Fit and Best Fit strategies Virtual-to-physical memory translation Page replacement using Modified Clock Algorithm Kernel & user heap memory management Page fault handler with buffering optimizations Process scheduling for multitasking
+## 🚀 Project Overview
 
-Contributions & References : This project follows the structure of the Ain Shams University FOS course. Special thanks to Dr. Mahmoud Hossam and Dr. Ahmed Salah for maintaining the course materials.
+The project is structured around several key milestones, each covering essential operating system concepts:
 
-Feel free to fork and modify the project! 🚀
+- ✅ **Kernel Heap Management**  
+  Implemented `kmalloc()`, `kfree()`, and virtual-to-physical address translation mechanisms.
+
+- ✅ **User Memory Management**  
+  Implemented `malloc()`, `free()`, and integrated dynamic memory allocation strategies.
+
+- ✅ **Page Fault Handling**  
+  Developed a page fault handler with the **Modified Clock Algorithm** for page replacement and buffering optimizations.
+
+- ✅ **Virtual Memory & Swap Management**  
+  Memory swapping between RAM and secondary storage with paging support.
+
+- ✅ **Process Scheduling**  
+  CPU scheduling for multi-process execution using customizable algorithms.
+
+---
+
+## ⚙️ Features Implemented
+
+- 🧠 Dynamic memory allocation with **First Fit** and **Best Fit** strategies  
+- 📦 Virtual-to-physical memory translation  
+- 🔄 Page replacement using the **Modified Clock Algorithm**  
+- 🧵 Kernel & user-level heap memory management  
+- ⚡ Optimized page fault handler with buffering  
+- 🧑‍💻 Process scheduling for multitasking and fair CPU usage
+
+---
+
+## 📚 Contributions & Acknowledgements
+
+This project follows the official structure and milestones of the FOS course at Ain Shams University.
+
+Special thanks to:
+
+- **Dr. Mahmoud Hossam**
+- **Dr. Ahmed Salah**
+
+For maintaining and developing the course content.
